@@ -14,7 +14,7 @@ By the end of this project, you will:
 
 ---
 
-# Setup Instructions
+## Setup Instructions
 1. Clone the Repository
 ```sql
 git clone https://github.com/i-ambale/Summary-Statistics-SQL.git
@@ -45,9 +45,9 @@ jupyter notebook
 ```
 ---
 
-# SQL Queries Used
+## SQL Queries Used
 Basic Summary Statistics
-```sql
+```
 SELECT 
     MIN(Pct_managed_drinking_water_services) AS Min_pct_water,
     MAX(Pct_managed_drinking_water_services) AS Max_pct_water,
@@ -65,8 +65,8 @@ FROM access_to_basic_services
 GROUP BY Region, Sub_region;
 ```
 ---
-# Contributors
+## Contributors
 📌 Ibrahim Ambale – GitHub
 
-# License
+## License
 This project is released under the MIT License.
