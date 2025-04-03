@@ -16,7 +16,7 @@ By the end of this project, you will:
 
 ## Setup Instructions
 1. Clone the Repository
-```
+```sql
 git clone https://github.com/i-ambale/Summary-Statistics-SQL.git
 cd Summary-Statistics-SQL
 ```
@@ -29,7 +29,7 @@ Ensure you have the following installed:
 
 - Required Python libraries:
 
-```
+```sql
 pip install pymysql sqlalchemy jupyterlab
 ```
 3. Database Connection
@@ -39,21 +39,21 @@ mysql+pymysql://root:your_password@localhost:3306/united_nations
 ```
 4. Run the Notebook
 Start Jupyter Notebook and execute the queries:
-```
+```sql
 jupyter notebook
 ```
 ---
 
 ## SQL Queries Used
 Basic Summary Statistics
-```
+```sql
 SELECT 
     MIN(Pct_managed_drinking_water_services) AS Min_pct_water,
     MAX(Pct_managed_drinking_water_services) AS Max_pct_water,
     AVG(Pct_managed_drinking_water_services) AS Avg_pct_water
 FROM access_to_basic_services;
 ```
-```
+```sql
 SELECT 
     Region,
     Sub_region,
