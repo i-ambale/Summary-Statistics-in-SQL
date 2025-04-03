@@ -28,10 +28,9 @@ Ensure you have the following installed:
 - Python 3.x
 
 - Required Python libraries:
-
-```sql
-pip install pymysql sqlalchemy jupyterlab
-```
+  ```sql
+  pip install pymysql sqlalchemy jupyterlab
+  ```
 3. Database Connection
 ```sql
 Modify your database connection string in the Jupyter Notebook:
