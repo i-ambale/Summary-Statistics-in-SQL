@@ -16,7 +16,7 @@ By the end of this project, you will:
 
 ## Setup Instructions
 1. Clone the Repository
-```sql
+```
 git clone https://github.com/i-ambale/Summary-Statistics-SQL.git
 cd Summary-Statistics-SQL
 ```
@@ -32,7 +32,6 @@ Ensure you have the following installed:
 ```
 pip install pymysql sqlalchemy jupyterlab
 ```
-
 3. Database Connection
 Modify your database connection string in the Jupyter Notebook:
 ```
@@ -54,7 +53,7 @@ SELECT
     AVG(Pct_managed_drinking_water_services) AS Avg_pct_water
 FROM access_to_basic_services;
 ```
-```sql
+```
 SELECT 
     Region,
     Sub_region,
