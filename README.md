@@ -33,8 +33,10 @@ Ensure you have the following installed:
 pip install pymysql sqlalchemy jupyterlab
 ```
 3. Database Connection
+```sql
 Modify your database connection string in the Jupyter Notebook:
 ```
+```sql
 mysql+pymysql://root:your_password@localhost:3306/united_nations
 ```
 4. Run the Notebook
